@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-row: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+h1 {
+    /* background-color: red; */
+    font-size: 5cap;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 177, 190);
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px;
+    min-width: 90vw;
+}
+
+p {
+    /* background-color: green; */
+    font-size: 3cap;
+}
